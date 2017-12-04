@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4300aa5c-39b9-45b2-9b21-cf2e71e0914d" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="CustomerService.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SolidPrinciples/SingleResponsability/After/CustomerService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-125">
+              <caret line="7" column="58" lean-forward="false" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+              <folding>
+                <marker date="1512359253273" expanded="true" signature="6:78" ph="..." />
+                <marker date="1512359253273" expanded="true" signature="132:1619" ph="{...}" />
+                <marker date="1512359253273" expanded="true" signature="139:473" ph="/* The issues in this class is the method AddNewCustomer it has too many responsabilities or jobs to do ... */" />
+                <marker date="1512359253273" expanded="true" signature="483:552" ph="/// provides customer operations ... " />
+                <marker date="1512359253273" expanded="true" signature="585:1617" ph="{...}" />
+                <marker date="1512359253273" expanded="true" signature="600:690" ph="/// Add new customer and sent the welcome sms ... " />
+                <marker date="1512359253273" expanded="true" signature="752:1486" ph="{...}" />
+                <marker date="1512359253273" expanded="true" signature="871:957" ph="{...}" />
+                <marker date="1512359253273" expanded="true" signature="1535:1611" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerService.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SolidPrinciples/SingleResponsability/Before/CustomerService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="661">
+              <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="30" />
+              <folding>
+                <marker date="1512359331746" expanded="true" signature="6:79" ph="..." />
+                <marker date="1512359331746" expanded="true" signature="106:1911" ph="{...}" />
+                <marker date="1512359331746" expanded="true" signature="118:833" ph="/* Single Responsibility Principle (SRP) ... */" />
+                <marker date="1512359331746" expanded="true" signature="843:912" ph="/// provides customer operations ... " />
+                <marker date="1512359331746" expanded="true" signature="945:1909" ph="{...}" />
+                <marker date="1512359331746" expanded="true" signature="1186:1312" ph="{...}" />
+                <marker date="1512359331746" expanded="true" signature="1330:1420" ph="/// Add new customer and sent the welcome sms ... " />
+                <marker date="1512359331746" expanded="true" signature="1482:1903" ph="{...}" />
+                <marker date="1512359331746" expanded="true" signature="1567:1653" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerDbContext.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SolidPrinciples/SingleResponsability/Before/CustomerDbContext.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="34" />
+              <folding>
+                <marker date="1512359582217" expanded="true" signature="92:354" ph="{...}" />
+                <marker date="1512359582217" expanded="true" signature="140:247" ph="{...}" />
+                <marker date="1512359582217" expanded="true" signature="189:241" ph="{...}" />
+                <marker date="1512359582217" expanded="true" signature="284:352" ph="{...}" />
+                <marker date="1512359582217" expanded="true" signature="326:346" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerSmsService.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SolidPrinciples/SingleResponsability/Before/CustomerSmsService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+              <folding>
+                <marker date="1512359253234" expanded="false" signature="6:79" ph="..." />
+                <marker date="1512359253234" expanded="true" signature="106:289" ph="{...}" />
+                <marker date="1512359253234" expanded="true" signature="144:287" ph="{...}" />
+                <marker date="1512359253234" expanded="true" signature="212:281" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Connection.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SolidPrinciples/SingleResponsability/Before/infrastructure/Connection.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+              <folding>
+                <marker date="1512358519905" expanded="true" signature="68:292" ph="{...}" />
+                <marker date="1512358519905" expanded="true" signature="98:290" ph="{...}" />
+                <marker date="1512358519905" expanded="true" signature="160:236" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Customer.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SolidPrinciples/SingleResponsability/Before/infrastructure/Customer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="53" lean-forward="false" selection-start-line="0" selection-start-column="53" selection-end-line="0" selection-end-column="53" />
+              <folding>
+                <marker date="1512358508624" expanded="true" signature="68:193" ph="{...}" />
+                <marker date="1512358508624" expanded="true" signature="96:191" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DbCommand.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SolidPrinciples/SingleResponsability/Before/infrastructure/DbCommand.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding>
+                <marker date="1512358508780" expanded="true" signature="68:231" ph="{...}" />
+                <marker date="1512358508780" expanded="true" signature="97:229" ph="{...}" />
+                <marker date="1512358508780" expanded="true" signature="147:223" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Customer.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SolidPrinciples/SingleResponsability/After/infrastructure/Customer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+              <folding>
+                <marker date="1512358286424" expanded="true" signature="67:192" ph="{...}" />
+                <marker date="1512358286424" expanded="true" signature="95:190" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Connection.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SolidPrinciples/SingleResponsability/After/infrastructure/Connection.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1512358286496" expanded="true" signature="91:315" ph="{...}" />
+                <marker date="1512358286496" expanded="true" signature="121:313" ph="{...}" />
+                <marker date="1512358286496" expanded="true" signature="183:259" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DbCommand.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SolidPrinciples/SingleResponsability/After/infrastructure/DbCommand.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+              <folding>
+                <marker date="1512358286527" expanded="true" signature="67:230" ph="{...}" />
+                <marker date="1512358286527" expanded="true" signature="96:228" ph="{...}" />
+                <marker date="1512358286527" expanded="true" signature="146:222" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/SolidPrinciples/SingleResponsability/After/infrastructure/Connection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SolidPrinciples/SingleResponsability/After/infrastructure/Customer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SolidPrinciples/SingleResponsability/After/CustomerService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SolidPrinciples/SingleResponsability/Before/infrastructure/Connection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SolidPrinciples/SingleResponsability/Before/infrastructure/Customer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SolidPrinciples/SingleResponsability/Before/infrastructure/DbCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SolidPrinciples/SingleResponsability/Before/CustomerService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SolidPrinciples/SingleResponsability/Before/CustomerSmsService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SolidPrinciples/SingleResponsability/Before/CustomerDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SolidPrinciples/SingleResponsability/After/infrastructure/DbCommand.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/SolidPrinciples/SingleResponsability.cs" />
+        <option value="$PROJECT_DIR$/SolidPrinciples/SingleResponsability/After/DbCommand.cs" />
+        <option value="$PROJECT_DIR$/SolidPrinciples/SingleResponsability/After/Connection.cs" />
+        <option value="$PROJECT_DIR$/SolidPrinciples/SingleResponsability/After/SingleResponsability.cs" />
+        <option value="$PROJECT_DIR$/SolidPrinciples/SingleResponsability/After/Customer.cs" />
+        <option value="$PROJECT_DIR$/SolidPrinciples/SingleResponsability/After/infrastructure/DbCommand.cs" />
+        <option value="$PROJECT_DIR$/SolidPrinciples/SingleResponsability/After/infrastructure/Customer.cs" />
+        <option value="$PROJECT_DIR$/SolidPrinciples/SingleResponsability/Before/infrastructure/Customer.cs" />
+        <option value="$PROJECT_DIR$/SolidPrinciples/SingleResponsability/Before/infrastructure/DbCommand.cs" />
+        <option value="$PROJECT_DIR$/SolidPrinciples/SingleResponsability/Before/infrastructure/Connection.cs" />
+        <option value="$PROJECT_DIR$/SolidPrinciples/SingleResponsability/Before/SmsService.cs" />
+        <option value="$PROJECT_DIR$/SolidPrinciples/SingleResponsability/After/CustomerService.cs" />
+        <option value="$PROJECT_DIR$/SolidPrinciples/SingleResponsability/Before/CustomerSmsService.cs" />
+        <option value="$PROJECT_DIR$/SolidPrinciples/SingleResponsability/Before/CustomerService.cs" />
+        <option value="$PROJECT_DIR$/SolidPrinciples/SingleResponsability/Before/DbContext.cs" />
+        <option value="$PROJECT_DIR$/SolidPrinciples/SingleResponsability/Before/CustomerDbContext.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SolidPrinciples (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SolidPrinciples (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SolidPrinciples" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SolidPrinciples (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SolidPrinciples" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SingleResponsability" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SolidPrinciples (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SolidPrinciples" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SingleResponsability" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="After" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SolidPrinciples (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SolidPrinciples" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SingleResponsability" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Before" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_OUTPUT_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4300aa5c-39b9-45b2-9b21-cf2e71e0914d" name="Default" comment="" />
+      <created>1512354693700</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1512354693700</updated>
+      <workItem from="1512354696284" duration="5173000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5173000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/SolidPrinciples/SingleResponsability/Before/infrastructure/Customer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="53" lean-forward="false" selection-start-line="0" selection-start-column="53" selection-end-line="0" selection-end-column="53" />
+          <folding>
+            <marker date="1512358508624" expanded="true" signature="68:193" ph="{...}" />
+            <marker date="1512358508624" expanded="true" signature="96:191" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SolidPrinciples/SingleResponsability/Before/infrastructure/DbCommand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <marker date="1512358508780" expanded="true" signature="68:231" ph="{...}" />
+            <marker date="1512358508780" expanded="true" signature="97:229" ph="{...}" />
+            <marker date="1512358508780" expanded="true" signature="147:223" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SolidPrinciples/SingleResponsability/Before/infrastructure/Connection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding>
+            <marker date="1512358519905" expanded="true" signature="68:292" ph="{...}" />
+            <marker date="1512358519905" expanded="true" signature="98:290" ph="{...}" />
+            <marker date="1512358519905" expanded="true" signature="160:236" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SolidPrinciples/SingleResponsability/After/infrastructure/Connection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1512358286496" expanded="true" signature="91:315" ph="{...}" />
+            <marker date="1512358286496" expanded="true" signature="121:313" ph="{...}" />
+            <marker date="1512358286496" expanded="true" signature="183:259" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SolidPrinciples/SingleResponsability/After/infrastructure/Customer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding>
+            <marker date="1512358286424" expanded="true" signature="67:192" ph="{...}" />
+            <marker date="1512358286424" expanded="true" signature="95:190" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SolidPrinciples/SingleResponsability/After/infrastructure/DbCommand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding>
+            <marker date="1512358286527" expanded="true" signature="67:230" ph="{...}" />
+            <marker date="1512358286527" expanded="true" signature="96:228" ph="{...}" />
+            <marker date="1512358286527" expanded="true" signature="146:222" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SolidPrinciples/SingleResponsability/After/CustomerService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125">
+          <caret line="7" column="58" lean-forward="false" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+          <folding>
+            <marker date="1512359253273" expanded="true" signature="6:78" ph="..." />
+            <marker date="1512359253273" expanded="true" signature="132:1619" ph="{...}" />
+            <marker date="1512359253273" expanded="true" signature="139:473" ph="/* The issues in this class is the method AddNewCustomer it has too many responsabilities or jobs to do ... */" />
+            <marker date="1512359253273" expanded="true" signature="483:552" ph="/// provides customer operations ... " />
+            <marker date="1512359253273" expanded="true" signature="585:1617" ph="{...}" />
+            <marker date="1512359253273" expanded="true" signature="600:690" ph="/// Add new customer and sent the welcome sms ... " />
+            <marker date="1512359253273" expanded="true" signature="752:1486" ph="{...}" />
+            <marker date="1512359253273" expanded="true" signature="871:957" ph="{...}" />
+            <marker date="1512359253273" expanded="true" signature="1535:1611" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SolidPrinciples/SingleResponsability/Before/CustomerSmsService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding>
+            <marker date="1512359253234" expanded="false" signature="6:79" ph="..." />
+            <marker date="1512359253234" expanded="true" signature="106:289" ph="{...}" />
+            <marker date="1512359253234" expanded="true" signature="144:287" ph="{...}" />
+            <marker date="1512359253234" expanded="true" signature="212:281" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SolidPrinciples/SingleResponsability/Before/CustomerService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="30" />
+          <folding>
+            <marker date="1512359331746" expanded="true" signature="6:79" ph="..." />
+            <marker date="1512359331746" expanded="true" signature="106:1911" ph="{...}" />
+            <marker date="1512359331746" expanded="true" signature="118:833" ph="/* Single Responsibility Principle (SRP) ... */" />
+            <marker date="1512359331746" expanded="true" signature="843:912" ph="/// provides customer operations ... " />
+            <marker date="1512359331746" expanded="true" signature="945:1909" ph="{...}" />
+            <marker date="1512359331746" expanded="true" signature="1186:1312" ph="{...}" />
+            <marker date="1512359331746" expanded="true" signature="1330:1420" ph="/// Add new customer and sent the welcome sms ... " />
+            <marker date="1512359331746" expanded="true" signature="1482:1903" ph="{...}" />
+            <marker date="1512359331746" expanded="true" signature="1567:1653" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SolidPrinciples/SingleResponsability/Before/CustomerDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="34" />
+          <folding>
+            <marker date="1512359582217" expanded="true" signature="92:354" ph="{...}" />
+            <marker date="1512359582217" expanded="true" signature="140:247" ph="{...}" />
+            <marker date="1512359582217" expanded="true" signature="189:241" ph="{...}" />
+            <marker date="1512359582217" expanded="true" signature="284:352" ph="{...}" />
+            <marker date="1512359582217" expanded="true" signature="326:346" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
